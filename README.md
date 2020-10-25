@@ -1,24 +1,15 @@
-# date
+# [Youdao Dictionary Pen Assistant](https://github.com/MondayCha/Youdao-Dictionary-Pen-Assistant)
 
-## Project setup
-```
-npm install
-```
+## About
+An assistant for Youdao dictionary pen.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
+## View
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+![](./src/static/vie.jpg)
+
+
+
+がんばれ!
+

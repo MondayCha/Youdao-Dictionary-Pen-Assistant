@@ -24,9 +24,11 @@
 				<a-button type="primary" :disabled="this.inputValue.length == 0" @click="check">字数检查</a-button>
 				<a-button :disabled="this.inputValue.length == 0" v-clipboard:copy="this.outputValue" v-clipboard:success="onCopy"
 				v-clipboard:error="onError">复制到剪贴板</a-button>
-				<a-button type="danger" :disabled="this.inputValue.length == 0" @click="jump" v-clipboard:copy="this.outputValue">复制并转到敏感词查询</a-button>
+				<a-button type="danger" :disabled="this.inputValue.length == 0" @click="jump" v-clipboard:copy="this.outputValue">复制并查询敏感词</a-button>
 			</a-space>
 		</div>
+		<br>
+		<br>
 		<div class="foot">Powered by <a href="https://www.zhihu.com/people/Dlee-01">MondayCha</a></div>
 	</div>
 </template>
@@ -111,6 +113,7 @@
 		margin: 0px 15px;
 		display: flex;
 		justify-content: space-evenly;
+		flex-wrap: wrap;
 	}
 
 	.button {
@@ -118,8 +121,9 @@
 	}
 
 	.pbyyds {
-		margin: 0px 15px;
+		margin: 0px 15px 15px;
 		flex-grow: 1;
+		min-width: 350px;
 	}
 
 	.pbsg {
